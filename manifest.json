@@ -1,0 +1,15 @@
+{
+    "short_name": "Cirrus",
+    "name": "Cirrus",
+    "icons": [
+        {
+            "src": "cirrus2.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#1c2730"
+}

@@ -1,0 +1,77 @@
+gcc cirrus_checktotp.c -o cirrus_checktotp.cgi -lmysqlclient
+cp cirrus_checktotp.cgi /usr/lib/cgi-bin/
+gcc cirrus_newprofile.c -o cirrus_newprofile.cgi -lmysqlclient
+cp cirrus_newprofile.cgi /usr/lib/cgi-bin/
+gcc cirrus_folders.c -o cirrus_folders.cgi -lmysqlclient
+cp cirrus_folders.cgi /usr/lib/cgi-bin/
+gcc cirrus_musiques.c -o cirrus_musiques.cgi -lmysqlclient
+cp cirrus_musiques.cgi /usr/lib/cgi-bin/
+gcc cirrus_add.c -o cirrus_add.cgi -lmysqlclient
+cp cirrus_add.cgi /usr/lib/cgi-bin/
+gcc cirrus_upload.c -o cirrus_upload.cgi -lmysqlclient
+cp cirrus_upload.cgi /usr/lib/cgi-bin/
+gcc cirrus_music_share.c -o cirrus_music_share.cgi -lmysqlclient
+cp cirrus_music_share.cgi /usr/lib/cgi-bin/
+gcc cirrus_music_suppr.c -o cirrus_music_suppr.cgi -lmysqlclient
+cp cirrus_music_suppr.cgi /usr/lib/cgi-bin/
+gcc cirrus_music_dosuppr.c -o cirrus_music_dosuppr.cgi -lmysqlclient
+cp cirrus_music_dosuppr.cgi /usr/lib/cgi-bin/
+gcc cirrus_videos.c -o cirrus_videos.cgi -lmysqlclient
+cp cirrus_videos.cgi /usr/lib/cgi-bin/
+gcc cirrus_video_share.c -o cirrus_video_share.cgi -lmysqlclient
+cp cirrus_video_share.cgi /usr/lib/cgi-bin/
+gcc cirrus_video_suppr.c -o cirrus_video_suppr.cgi -lmysqlclient
+cp cirrus_video_suppr.cgi /usr/lib/cgi-bin/
+gcc cirrus_video_dosuppr.c -o cirrus_video_dosuppr.cgi -lmysqlclient
+cp cirrus_video_dosuppr.cgi /usr/lib/cgi-bin/
+gcc cirrus_documents.c -o cirrus_documents.cgi -lmysqlclient
+cp cirrus_documents.cgi /usr/lib/cgi-bin/
+gcc cirrus_document_share.c -o cirrus_document_share.cgi -lmysqlclient
+cp cirrus_document_share.cgi /usr/lib/cgi-bin/
+gcc cirrus_document_suppr.c -o cirrus_document_suppr.cgi -lmysqlclient
+cp cirrus_document_suppr.cgi /usr/lib/cgi-bin/
+gcc cirrus_document_dosuppr.c -o cirrus_document_dosuppr.cgi -lmysqlclient
+cp cirrus_document_dosuppr.cgi /usr/lib/cgi-bin/
+gcc cirrus_images.c -o cirrus_images.cgi -lmysqlclient
+cp cirrus_images.cgi /usr/lib/cgi-bin/
+gcc cirrus_image_share.c -o cirrus_image_share.cgi -lmysqlclient
+cp cirrus_image_share.cgi /usr/lib/cgi-bin/
+gcc cirrus_image_suppr.c -o cirrus_image_suppr.cgi -lmysqlclient
+cp cirrus_image_suppr.cgi /usr/lib/cgi-bin/
+gcc cirrus_image_dosuppr.c -o cirrus_image_dosuppr.cgi -lmysqlclient
+cp cirrus_image_dosuppr.cgi /usr/lib/cgi-bin/
+gcc cirrus_pagesweb.c -o cirrus_pagesweb.cgi -lmysqlclient
+cp cirrus_pagesweb.cgi /usr/lib/cgi-bin/
+gcc cirrus_pageweb_share.c -o cirrus_pageweb_share.cgi -lmysqlclient
+cp cirrus_pageweb_share.cgi /usr/lib/cgi-bin/
+gcc cirrus_pageweb_suppr.c -o cirrus_pageweb_suppr.cgi -lmysqlclient
+cp cirrus_pageweb_suppr.cgi /usr/lib/cgi-bin/
+gcc cirrus_pageweb_dosuppr.c -o cirrus_pageweb_dosuppr.cgi -lmysqlclient
+cp cirrus_pageweb_dosuppr.cgi /usr/lib/cgi-bin/
+gcc cirrus_comptes.c -o cirrus_comptes.cgi -lmysqlclient
+cp cirrus_comptes.cgi /usr/lib/cgi-bin/
+gcc cirrus_activer.c -o cirrus_activer.cgi -lmysqlclient
+cp cirrus_activer.cgi /usr/lib/cgi-bin/
+gcc cirrus_desactiver.c -o cirrus_desactiver.cgi -lmysqlclient
+cp cirrus_desactiver.cgi /usr/lib/cgi-bin/
+gcc cirrus_stats.c -o cirrus_stats.cgi -lmysqlclient
+cp cirrus_stats.cgi /usr/lib/cgi-bin/
+gcc cirrus_editprofile.c -o cirrus_editprofile.cgi -lmysqlclient
+cp cirrus_editprofile.cgi /usr/lib/cgi-bin/
+gcc cirrus_updateprofile.c -o cirrus_updateprofile.cgi -lmysqlclient
+cp cirrus_updateprofile.cgi /usr/lib/cgi-bin/
+gcc cirrus_confirmactivetotp.c -o cirrus_confirmactivetotp.cgi -lmysqlclient
+cp cirrus_confirmactivetotp.cgi /usr/lib/cgi-bin/
+gcc cirrus_activetotp.c -o cirrus_activetotp.cgi -lmysqlclient
+cp cirrus_activetotp.cgi /usr/lib/cgi-bin/
+gcc cirrus_confirmdesactivetotp.c -o cirrus_confirmdesactivetotp.cgi -lmysqlclient
+cp cirrus_confirmdesactivetotp.cgi /usr/lib/cgi-bin/
+gcc cirrus_desactivetotp.c -o cirrus_desactivetotp.cgi -lmysqlclient
+cp cirrus_desactivetotp.cgi /usr/lib/cgi-bin/
+gcc cirrus_quota.c -o cirrus_quota.cgi -lmysqlclient
+cp cirrus_quota.cgi /usr/lib/cgi-bin/
+gcc cirrus_changequota.c -o cirrus_changequota.cgi -lmysqlclient
+cp cirrus_changequota.cgi /usr/lib/cgi-bin/
+gcc cirrus_video_iframe.c -o cirrus_video_iframe.cgi -lmysqlclient
+cp cirrus_video_iframe.cgi /usr/lib/cgi-bin/
+rm *.cgi

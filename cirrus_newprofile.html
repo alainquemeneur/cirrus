@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Cirrus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="icon" type="image/x-icon" href="/cirrus/cirrus2.png">
+<link rel="stylesheet" href="/cirrus/themes/ohm.min.css" />
+<link rel="stylesheet" href="/cirrus/themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="/jq/jquery.mobile.structure-1.4.5.min.css" />
+<script src="/jq/demos/js/jquery.min.js"></script>
+<script src="/jq/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+   <div data-role="page" data-theme="b">
+      <div data-role="header" data-position="fixed" data-theme="b">
+         <h1><img src="cirrus.png"></h1>
+      </div>
+      <div role="main" class="ui-content">
+         <p style="text-align:center"><strong>Mon compte</strong></p>
+               <form autocomplete="off" action="/cgi-bin/cirrus_newprofile.cgi" method="post" id="form-profile" data-transition="none" data-rel="dialog">
+                  <div data-role="fieldcontain">
+                  <label for="txt-nom">Nom *</label>
+                  <input type="text" name="txt-nom" id="txt-nom" maxlength="99" value="" required="required">
+                  </div>
+                  <div data-role="fieldcontain">
+                  <label for="txt-password">Mot de passe *</label>
+                  <input type="password" name="txt-password" maxlength="99" id="txt-password" value="" required="required">
+                  </div>
+                  <div data-role="fieldcontain">
+                  <label for="txt-confirm">Confirmation du mot de passe *</label>
+                  <input type="password" name="txt-confirm" maxlength="99" id="txt-confirm" value="" required="required">
+                  </div>
+                  <input type="submit" data-mini="false" data-inline="false" data-theme="c" data-icon="action" value="Demander mon compte">
+                  </form>
+                  <a href="/cirrus/index.html" class="ui-btn ui-btn-c ui-corner-all mc-top-margin-1-5">Annuler</a>
+      </div>
+      <div data-role="footer" class="ui-bar" data-position="fixed" data-theme="b">
+         <h4>Cirrus - Cloud privé</h4>
+      </div>
+   </div>
+</body>
+</html>
