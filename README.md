@@ -70,4 +70,6 @@ rm * (vérifiez bien d'être dans le bon répertoire avant de taper cela !!!)
 
 Connectez-vous à https://votre_serveur/cirrus et utilisez la webapp
 
+Connectez-vous avec le login Admin, mot de passe admin. Changez le mot de passe admin dans l'interface web.
+
 alain.quemeneur@gmail.com
